@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hardy-golf"
+version = "0.1.0"
+description = "Hardy distribution model for golf scores"
+authors = [{ name = "Devin Sciarrino" }]
+requires-python = ">=3.9"
+dependencies = ["numpy"]
